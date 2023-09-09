@@ -76,7 +76,7 @@ img {
 
 .nav-wrapper {
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
     align-items: center;
     flex-grow: 1;
 }
@@ -84,6 +84,7 @@ img {
 .nav-logo {
     display: flex;
     align-items: center;
+    margin-right: 76px;
     color: var(--iris);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -101,7 +102,7 @@ img {
 .nav-list {
     display: flex;
     gap: 40px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     justify-content: center;
 }
 
