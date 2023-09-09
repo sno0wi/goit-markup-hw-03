@@ -162,6 +162,7 @@ img {
 
 .main-title {
     /* padding: 148px 0 88px; */
+    max-width: 496px;
     font-size: 56px;
     color: var(--white);
     line-height: 1.07;
