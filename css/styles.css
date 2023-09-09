@@ -298,6 +298,7 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
     gap: 24px;
 }
 
@@ -309,6 +310,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    border: 1px solid var(--cornnflower)
 }
 
 .portfolio-card {
@@ -333,7 +335,7 @@ img {
 
 .footer-wrapper {
     background-color: var(--navyblue);
-    padding: 101.5px 0 101px;
+    padding: 100px 0 100px;
 }
 
 .footer-logo {
@@ -345,7 +347,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 }
 
 .span-footer {
@@ -356,5 +358,5 @@ img {
     color: var(--cloud);
     line-height: 1.5;
     margin: 0;
-    width: 264px;
+    max-width: 264px;
 }
