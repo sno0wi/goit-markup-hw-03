@@ -313,7 +313,8 @@ img {
 
 .portfolio-card {
     padding: 32px 16px;
-    border: 1px solid var(--cornnflower)
+    border: 1px solid var(--cornnflower);
+    border-top: none;
 }
 
 .portfolio-title {
